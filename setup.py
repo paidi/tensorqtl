@@ -14,7 +14,7 @@ setup(
     name = 'tensorqtl',
     version = __version__,
     packages = find_packages(),
-    description = 'GPU-based QTL mapper',
+    description = 'TF-based QTL mapper',
     author = 'Francois Aguet (Broad Institute)',
     author_email = 'francois@broadinstitute.org',
     long_description = _LONG_DESCRIPTION,
@@ -28,8 +28,7 @@ setup(
     'pandas',
     'pyarrow',
     'scipy',
-    'pandas-plink',
-    'tensorflow-gpu',
+    'pandas-plink'
     ],
     classifiers = [
         "Programming Language :: Python :: 3",
